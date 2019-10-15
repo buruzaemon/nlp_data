@@ -1,0 +1,29 @@
+conda create -n nlp python=3.7 nltk beautifulsoup4 pyyaml cython numpy scipy scikit-learn pandas jupyter matplotlib seaborn gensim flask
+
+# spaCy
+pip install en_core_web_*
+
+... first one will install spaCy itself as a dependency
+
+
+# SudachiPy
+pip install SudachiPy
+pip install SudachiDict_core-20190927.tar.gz
+pip install SudachiDict_full-20190927.tar.gz
+
+* core needed for ginza install
+
+sudachipy link -t full
+
+* requires admin privileges for os.symlink call
+** prefer full over core
+
+
+# ginza
+pip install ja_ginza-2.2.0.tar.gz
+
+pip install ginza-2.2.0.tar.gz
+
+
+# Japanese fonts in Matplotlib
+pip install japanize-matplotlib
