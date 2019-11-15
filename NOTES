@@ -8,8 +8,8 @@ pip install en_core_web_*
 
 # SudachiPy
 pip install SudachiPy
-pip install SudachiDict_core-20190927.tar.gz
-pip install SudachiDict_full-20190927.tar.gz
+pip install SudachiDict_core-20191030.tar.gz
+pip install SudachiDict_full-20191030.tar.gz
 
 * core needed for ginza install
 
@@ -22,7 +22,7 @@ sudachipy link -t full
 # ginza
 pip install ja_ginza-2.2.0.tar.gz
 
-pip install ginza-2.2.0.tar.gz
+pip install ginza-2.2.1.tar.gz
 
 
 # Japanese fonts in Matplotlib
